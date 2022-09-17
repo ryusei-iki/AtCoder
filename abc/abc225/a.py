@@ -1,0 +1,11 @@
+#@
+s=input()
+s=list(s)
+s=set(s)
+a=len(s)
+if(a==2):
+    print(3)
+elif(a==1):
+    print(1)
+else:
+    print(6)

@@ -1,0 +1,9 @@
+#@
+s=input()
+if(2<len(s)):
+    if(s[-2:]=='er'):
+        print('er')
+    else:
+        print('ist')
+else:
+    print('er')

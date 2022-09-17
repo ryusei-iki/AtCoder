@@ -1,0 +1,11 @@
+#@
+a,b,c=map(int,input().split())
+bb=b//c
+aa=a//c
+if(1<=bb-aa):
+    print(c*bb)
+else:
+    if(a%c==0):
+        print(a)
+    else:
+        print('-1')
